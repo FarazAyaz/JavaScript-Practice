@@ -1,16 +1,29 @@
 
 // based on a condition we need to modify a variable
-let age = 17;
-let grace = 2;
-console.log(age + grace);
-console.log(age - grace);
-console.log(age / grace);
-console.log(age ** grace);
+// 
 
-if ((age+grace)>18)
-  {console.log("you are eligible for the vote")
+let age = 10;
+if (age != 10) {
+  console.log("you can swim")
 
 }
+else if(age==10){
+  console.log("Are You Kidding")
+}
+
 else{
-  console.log("you are not eligible for the vote")
+
+  console.log("you cant swim")
+}
+let a = 1;
+
+// for (let i = 0; i < 100; i++) {
+//   console.log(a + i);
+  
+  
+// }
+for (let f = 5; f < 100; f++) {
+  console.log(a + f);
+  
+  
 }
