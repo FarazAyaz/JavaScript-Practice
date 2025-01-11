@@ -33,9 +33,15 @@
 //  portion while
 
 
-let i = 2;
-while (i < 100) {
-  console.log(i);
-  i++;
+// let i = 2;
+// while (i < 100) {
+//   console.log(i);
+//   i++;
   
-}
+// }
+// practice set
+var f = "FARAZ";
+var a = 10;
+console.log(f + a);
+console.log(typeof f + a);
+
