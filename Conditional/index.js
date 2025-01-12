@@ -43,5 +43,14 @@
 var f = "FARAZ";
 var a = 10;
 console.log(f + a);
-console.log(typeof f + a);
+console.log(typeof (f + a));
+
+const dict = {
+  appreciate: "To Praise Someone",
+  vigilant: "To be Alert",
+  respect: "To Honour Someone",
+  honest: "To be Truthful",
+
+}
+console.log(dict.appreciate, dict.vigilant, dict.respect, dict.honest);
 
