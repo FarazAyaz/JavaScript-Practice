@@ -72,24 +72,42 @@
 //         console.log(a + i);
 //       }
 
-let assignment = 10;
-assignment += 15;
-console.log(assignment);
-console.log(assignment -= 15);
-console.log(assignment *= 15);
-console.log(assignment /= 15);
+// let assignment = 10;
+// assignment += 15;
+// console.log(assignment);
+// console.log(assignment -= 15);
+// console.log(assignment *= 15);
+// console.log(assignment /= 15);
 
 // comparison operators
-let faraz = 10;
-let adnan = 20;
-console.log(faraz == adnan);
-console.log(faraz != adnan);
-console.log(faraz > adnan);
-console.log(faraz < adnan);
-console.log(faraz >= adnan);
-console.log(faraz <= adnan);
-console.log(faraz === adnan);
-console.log(faraz !== adnan);
+// let faraz = 10;
+// let adnan = 20;
+// console.log(faraz == adnan);
+// console.log(faraz != adnan);
+// console.log(faraz > adnan);
+// console.log(faraz < adnan);
+// console.log(faraz >= adnan);
+// console.log(faraz <= adnan);
+// console.log(faraz === adnan); 
+// agr type change kr le to false ho jata hai matlb adnan = "20" to false ho jata hai
+// console.log(faraz !== adnan);
+let a = prompt("Hey! what is your age?");
+a = Number.parseInt(a);
+if(a<0){
+  alert("This is not a valid age");
+}
+else if(a<9){
+    alert("You are a kid! Watch POGO");
+}
+else if(a >= 9 && a < 18) {
+    alert("You cant drive till 18");
+}
+else{
+    alert("You can drive now");
+}
+
+
+
 
 
  
