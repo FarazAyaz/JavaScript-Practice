@@ -91,26 +91,23 @@
 // console.log(faraz === adnan); 
 // agr type change kr le to false ho jata hai matlb adnan = "20" to false ho jata hai
 // console.log(faraz !== adnan);
-let a = prompt("Hey! what is your age?");
-a = Number.parseInt(a);
-if(a<0){
-  alert("This is not a valid age");
+// const prompt=require("prompt-sync");
+// let a = prompt("Hey! what is your age?");
+// a = Number.parseInt(a);
+      
+
+let fruit= "Mango"
+switch(fruit){
+    case  "Orange" :
+        console.log("oranges are my fav")
+    break
+    case  "Mango" :   
+        console.log("Mangoes are my fav")
+    break
+    default :
+    console.log("Sorry")
+    
 }
-else if(a<9){
-    alert("You are a kid! Watch POGO");
-}
-else if(a >= 9 && a < 18) {
-    alert("You cant drive till 18");
-}
-else{
-    alert("You can drive now");
-}
-
-
-
-
-
- 
 
   
   
