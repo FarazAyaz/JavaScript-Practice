@@ -158,28 +158,28 @@
 
 //                                chap 3
 
-//   .....................for loop.....................
+  .....................for loop.....................
 
-// let factorial = 1;
-// let n = 5
-// for (let i = 0; i < n; i++) {
-//     factorial *= (i +1);
+let factorial = 1;
+let n = 5
+for (let i = 0; i < n; i++) {
+    factorial *= (i +1);
     
-// }
-// console.log(
-//     'factorial of first' + n + "natural number is" + factorial 
-// )
+}
+console.log(
+    'factorial of first' + n + "natural number is" + factorial 
+)
 
 
-// let sum = 0;
-// let n = 10;
-// for (let i = 0; i < n; i++) {
-//     sum += (i + 1);
+let sum = 0;
+let n = 10;
+for (let i = 0; i < n; i++) {
+    sum += (i + 1);
     
-// }
-// console.log(
-//     sum
-// )
+}
+console.log(
+    sum
+)
 
 let obj = {
   faraz: 100,
