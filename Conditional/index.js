@@ -194,17 +194,32 @@
 //   console.log(); // Adds an empty line
 // }
                                   //  while loop
-let n = 100
-let i = 0;
-while(i<n) {
-  console.log(i)
-  i++
+// let n = 100
+// let i = 0;
+// while(i<n) {
+//   console.log(i)
+//   i++
   
-}
-let n = 10
-let i = 11;
- do{
-  console.log(i)
-  i++
+// }
+// let n = 10
+// let i = 11;
+//  do{
+//   console.log(i)
+//   i++
   
-}while(i<n)
+// }while(i<n)
+
+                                //  functions
+ function trick(x,y) {
+   return 1 + (x + y) / 2}
+                                
+
+  let chemistry = 10;
+  let physics = 20;
+  let biology = 30;
+  console.log("average of chemistry and physics is " + trick(chemistry,physics ))
+    console.log("average of chemistry and biology is " + trick(chemistry, biology))
+    console.log("average of biology and physics is " + trick(biology,physics))
+
+
+ 
