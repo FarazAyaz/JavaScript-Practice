@@ -158,39 +158,46 @@
 
 //                                chap 3
 
-  .....................for loop.....................
+//   .....................for loop.....................
 
-let factorial = 1;
-let n = 5
-for (let i = 0; i < n; i++) {
-    factorial *= (i +1);
+// let factorial = 1;
+// let n = 5
+// for (let i = 0; i < n; i++) {
+//     factorial *= (i +1);
     
-}
-console.log(
-    'factorial of first' + n + "natural number is" + factorial 
-)
+// }
+// console.log(
+//     'factorial of first' + n + "natural number is" + factorial 
+// )
 
 
-let sum = 0;
-let n = 10;
-for (let i = 0; i < n; i++) {
-    sum += (i + 1);
+// let sum = 0;
+// let n = 10;
+// for (let i = 0; i < n; i++) {
+//     sum += (i + 1);
     
+// }
+// console.log(
+//     sum
+// )
+
+// let obj = {
+//   faraz: 100,
+//   adnan: 99,
+//   siffat: 98,
+//   ahmed: 90,
+//   khan: 81
+// };
+
+// for (let a in obj) {
+//   console.log("Marks of " + a + " are " + obj[a]);
+//   console.log(); // Adds an empty line
+// }
+                                  //  while loop
+let n = 100
+let i = 0;
+while(i<n) {
+  console.log(i)
+  i++
+  
 }
-console.log(
-    sum
-)
-
-let obj = {
-  faraz: 100,
-  adnan: 99,
-  siffat: 98,
-  ahmed: 90,
-  khan: 81
-};
-
-for (let a in obj) {
-  console.log("Marks of " + a + " are " + obj[a]);
-  console.log(); // Adds an empty line
-}
-
