@@ -210,16 +210,51 @@
 // }while(i<n)
 
                                 //  functions
- function trick(x,y) {
-   return 1 + (x + y) / 2}
-                                
-
-  let chemistry = 10;
-  let physics = 20;
-  let biology = 30;
-  console.log("average of chemistry and physics is " + trick(chemistry,physics ))
-    console.log("average of chemistry and biology is " + trick(chemistry, biology))
-    console.log("average of biology and physics is " + trick(biology,physics))
+//  function trick(x,y) {
+//    return (x * y) / 2}
+  // let chemistry = 10;
+  // let physics = 20;
+  // let biology = 30;
+  // console.log("average of chemistry and physics is " + trick(chemistry,physics ))
+  //   console.log("average of chemistry and biology is " + trick(chemistry, biology))
+  //   console.log("average of biology and physics is " + trick(biology,physics))
 
 
- 
+//                                     Table of 10
+//                                   ascending order 
+//                                     for loop
+/*
+
+for (let i = 10; i >= 1;i--) {
+  console.log("10 x ",i, " = ",10*i);
+}
+
+for (let i = 1; i <= 10;i++) {
+  console.log("10 x ",i, " = ",10*i);
+}
+//                                    chap 3 practice set 
+//                                        question1 
+*/
+let obj = {
+  FARAZ: 100,
+  ADNAN: 90,
+  SIFFAT:88,
+}
+for (let i = 0; i < Object.keys(obj).length; i++) {
+  console.log(" The Marks of " + Object.keys(obj)[i] + " are " + obj[Object.keys(obj)[i]])
+}
+//                                    question 2
+let obj = {
+  FARAZ: 100,
+  ADNAN: 90,
+  SIFFAT:88,
+}
+for (let key in obj) {
+  console.log(key,obj[key])
+}
+                                              question 3
+
+                                                                                      
+
+                            
+                        
