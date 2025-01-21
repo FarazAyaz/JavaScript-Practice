@@ -234,7 +234,6 @@ for (let i = 1; i <= 10;i++) {
 }
 //                                    chap 3 practice set 
 //                                        question1 
-*/
 let obj = {
   FARAZ: 100,
   ADNAN: 90,
@@ -251,10 +250,34 @@ let obj = {
 }
 for (let key in obj) {
   console.log(key,obj[key])
-}
-                                              question 3
+  
+  question 3
+  
+  
+  let cn = 4
+  let i
+  while (i!=cn) {
+    console.log("Try Again")
+    i = prompt("Enter a Number")
+  }                                                  
+  console.log("You Have Entered The Correct Number")    
+  
+  question 4
+  
+  
+  function mean(a, b, c, d) {
+    return (a + b + c + d)/4
+    
+  }
+  console.log(mean(4, 5, 6, 7))
+  */
+                                     //  chap 4 (string)
+let a = "Faraz"
+console.log(a.length)
+console.log(a)
 
-                                                                                      
 
-                            
-                        
+let man1 = "faraz"
+let man2 = "adnan"
+let sentence = `${man1} is stronger than ${man2}`
+console.log(sentence)
