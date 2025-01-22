@@ -270,9 +270,8 @@ for (let key in obj) {
     
   }
   console.log(mean(4, 5, 6, 7))
-  */
-                                     //  chap 4 (string)
-let a = "Faraz"
+  //  chap 4 (string)
+  let a = "Faraz"
 console.log(a.length)
 console.log(a)
 
@@ -281,3 +280,25 @@ let man1 = "faraz"
 let man2 = "adnan"
 let sentence = `${man1} is stronger than ${man2}`
 console.log(sentence)
+//  escape character
+let student = "Far\"az";
+console.log(student.length)
+*/
+let a = "FARAZ"
+for (let i = 0; i < a.length; i++) {
+  console.log(a[i]);
+  
+}
+let name = "faraz"
+let friend = "zikriya"
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+console.log(name.replace("faraz","adnan"))
+// console.log(name.concate("Is The Friend of", friend))
+console.log(name + " Is The Friend of " + friend)
+
+let sentence = "quick brown fox jumps over the lazy dog"
+let word = "fox2";
+let word2 = "dog"
+console.log(`the word "${word}" ${sentence.includes(word)?"is":"is not"} present in the sentence`)
+console.log(`the word "${word2}" ${sentence.includes(word2)?"is":"is not"} present in the sentence`)
