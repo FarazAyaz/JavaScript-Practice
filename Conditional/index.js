@@ -283,7 +283,6 @@ console.log(sentence)
 //  escape character
 let student = "Far\"az";
 console.log(student.length)
-*/
 let a = "FARAZ"
 for (let i = 0; i < a.length; i++) {
   console.log(a[i]);
@@ -302,3 +301,26 @@ let word = "fox2";
 let word2 = "dog"
 console.log(`the word "${word}" ${sentence.includes(word)?"is":"is not"} present in the sentence`)
 console.log(`the word "${word2}" ${sentence.includes(word2)?"is":"is not"} present in the sentence`)
+// chap 4 practice set
+
+question 1
+*/
+let name = "faraz\*"
+console.log(name.length)
+                                    
+                                    // question 2
+let friend = "faraz ayaz khan"
+console.log(friend.toUpperCase())
+console.log(friend.toLowerCase())
+
+                                    // question 3
+
+let sentence = "quick brown fox jumps over the lazy dog"
+let king = "faraz"
+console.log(`the word "${king}" ${sentence.includes(king)?"is":"is not"} present in the sentence`)
+                                         // question 4
+                                         
+                                         
+let question = " give me the amount rs 1000"
+ let number = question.slice("give me the amount rs  ".length)
+  console.log(number)
