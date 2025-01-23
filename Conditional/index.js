@@ -304,7 +304,6 @@ console.log(`the word "${word2}" ${sentence.includes(word2)?"is":"is not"} prese
 // chap 4 practice set
 
 question 1
-*/
 let name = "faraz\*"
 console.log(name.length)
                                     
@@ -318,9 +317,26 @@ console.log(friend.toLowerCase())
 let sentence = "quick brown fox jumps over the lazy dog"
 let king = "faraz"
 console.log(`the word "${king}" ${sentence.includes(king)?"is":"is not"} present in the sentence`)
-                                         // question 4
-                                         
-                                         
+// question 4
+
+
 let question = " give me the amount rs 1000"
- let number = question.slice("give me the amount rs  ".length)
-  console.log(number)
+let number = question.slice("give me the amount rs  ".length)
+console.log(number)
+*/
+                                        //  chap 5 (Arrays)
+
+let class1 = [90, 36, 80, 100, null, "not present"]
+console.log(class1)
+console.log(class1[0])
+console.log(class1[1])
+console.log(class1[2])
+console.log(class1[3])
+console.log(class1[4])
+console.log(class1[5])
+console.log(class1[6])
+console.log(class1.length)
+class1[0] = 95
+class1[4] = 67
+console.log(class1)
+console.log(typeof class1)
