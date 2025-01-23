@@ -323,8 +323,7 @@ console.log(`the word "${king}" ${sentence.includes(king)?"is":"is not"} present
 let question = " give me the amount rs 1000"
 let number = question.slice("give me the amount rs  ".length)
 console.log(number)
-*/
-                                        //  chap 5 (Arrays)
+//  chap 5 (Arrays)
 
 let class1 = [90, 36, 80, 100, null, "not present"]
 console.log(class1)
@@ -340,3 +339,26 @@ class1[0] = 95
 class1[4] = 67
 console.log(class1)
 console.log(typeof class1)
+*/
+                                  //  array methods
+  
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(num, typeof num)
+
+let b = num.toString()       //  converts array to string
+console.log(b, typeof b)
+
+let c = num.join(" and ")
+console.log(c, typeof c)
+
+let d = num.push(11)           //  adds element at the end of the array
+console.log(num)
+
+let e = num.pop()
+console.log(num)
+
+let f = num.shift()          //  removes the first element of the array
+console.log(f,num)               //    modifies the original array           
+
+let g = num.unshift(56)       //    adds element at the start of the array
+console.log(g, num)
