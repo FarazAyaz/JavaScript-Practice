@@ -339,9 +339,8 @@ class1[0] = 95
 class1[4] = 67
 console.log(class1)
 console.log(typeof class1)
-*/
-                                  //  array methods
-  
+//  array methods
+
 let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log(num, typeof num)
 
@@ -362,3 +361,28 @@ console.log(f,num)               //    modifies the original array
 
 let g = num.unshift(56)       //    adds element at the start of the array
 console.log(g, num)
+
+let h = [6, 7, 8, 9, 10]
+delete h[2]    
+delete h[3]     
+console.log(h.length)  //  deletes the element at the given index
+
+let i = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let j = [10, 11, 12, 13, 14, 15, 16]
+let k = [17, 18, 19, 20, 21,]
+let l = i.concat(j, k)
+console.log(l)               //  concats the arrays and returns a new array
+let compare = (a, b) => {
+  return b - a
+}
+let m = [1, 2, 883, 444, 5, 6, 127, 8, 9]
+m.sort(compare)
+console.log(m)                    //  sorts the array in ascending order
+*/
+let n = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let deletedvalues = n.splice(1, 4, 2023, 1070, 994, 80, 971)
+console.log(n)              //  deletes the elements from the array and returns the deleted elements
+console.log(deletedvalues)
+
+
+
