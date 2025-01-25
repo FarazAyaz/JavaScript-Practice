@@ -251,7 +251,7 @@ let obj = {
 for (let key in obj) {
   console.log(key,obj[key])
   
-  question 3
+                                            question 3
   
   
   let cn = 4
@@ -262,7 +262,7 @@ for (let key in obj) {
   }                                                  
   console.log("You Have Entered The Correct Number")    
   
-  question 4
+                                        question 4
   
   
   function mean(a, b, c, d) {
@@ -270,7 +270,7 @@ for (let key in obj) {
     
   }
   console.log(mean(4, 5, 6, 7))
-  //  chap 4 (string)
+                                           //  chap 4 (string)
   let a = "Faraz"
 console.log(a.length)
 console.log(a)
@@ -280,7 +280,7 @@ let man1 = "faraz"
 let man2 = "adnan"
 let sentence = `${man1} is stronger than ${man2}`
 console.log(sentence)
-//  escape character
+                                       //  escape character
 let student = "Far\"az";
 console.log(student.length)
 let a = "FARAZ"
@@ -301,9 +301,9 @@ let word = "fox2";
 let word2 = "dog"
 console.log(`the word "${word}" ${sentence.includes(word)?"is":"is not"} present in the sentence`)
 console.log(`the word "${word2}" ${sentence.includes(word2)?"is":"is not"} present in the sentence`)
-// chap 4 practice set
+                                          // chap 4 practice set
 
-question 1
+                                           question 1
 let name = "faraz\*"
 console.log(name.length)
                                     
@@ -323,7 +323,8 @@ console.log(`the word "${king}" ${sentence.includes(king)?"is":"is not"} present
 let question = " give me the amount rs 1000"
 let number = question.slice("give me the amount rs  ".length)
 console.log(number)
-//  chap 5 (Arrays)
+
+                               //  chap 5 (Arrays)
 
 let class1 = [90, 36, 80, 100, null, "not present"]
 console.log(class1)
@@ -339,7 +340,7 @@ class1[0] = 95
 class1[4] = 67
 console.log(class1)
 console.log(typeof class1)
-//  array methods
+                                     //  array methods
 
 let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log(num, typeof num)
@@ -386,36 +387,60 @@ let o = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 let newnum = o.slice(3, 6)
 console.log(newnum)               //  returns the sliced array
 
-*/     
-                            // using loops with arrays
-                        
+                                    // using loops with arrays
+
 let n = [1, 2, 3, 4, 5, 6]
 for (let i = 0; i < n.length; i++) {
   console.log(n[i])
   
 }
-                                //  forEach loop
-                              
+                                          //  forEach loop
+
 n.forEach(element => {
   console.log(element + element)
   
 });
-                 
-                                  // for of loop  most used loop in arrays
-                              
+
+                                // for of loop  most used loop in arrays
+
 for (const element of n) {
   console.log(element)
   
 }
-                                    //  for in loop
+                                                //  for in loop
 
 for (const key in n) {
-   console.log(n[key])
+  console.log(n[key])
 }
-                              //  Array.from
-                              
+                                               //  Array.from
+
 let name = "faraz"
 let namearray = Array.from(name)
 console.log(namearray)
 console.log(namearray.length)
 
+//  MAP FUNCTION 
+*/     
+
+let arr = [1,3,5,7,9]
+arr.map((value, index, array)=>{
+  console.log(value, index, array)
+}
+)
+
+                                                //  ARRAY FILTER METHOD 
+
+let arr2 = [2,4,6,8,10]
+let newarr = arr2.filter((a)=>{
+  return a<5
+})
+console.log(newarr)
+
+                                                  //  ARRAY REDUCE METHOD
+
+let arr3 = [44,6,8,88,5,20]
+const reduce_func = (h1, h2)=>{
+  return h1 + h2
+}
+let newarray = arr3.reduce(reduce_func)
+console.log(newarray)
