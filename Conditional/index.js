@@ -378,11 +378,39 @@ let compare = (a, b) => {
 let m = [1, 2, 883, 444, 5, 6, 127, 8, 9]
 m.sort(compare)
 console.log(m)                    //  sorts the array in ascending order
-*/
 let n = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-let deletedvalues = n.splice(1, 4, 2023, 1070, 994, 80, 971)
+let deletedvalues = n.splice(3, 4, 2023, 1070, 994, 80, 971)
 console.log(n)              //  deletes the elements from the array and returns the deleted elements
 console.log(deletedvalues)
+let o = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let newnum = o.slice(3, 6)
+console.log(newnum)               //  returns the sliced array
 
+*/     
+                            // using loops with arrays
+                        
+let n = [1, 2, 3, 4, 5, 6]
+for (let i = 0; i < n.length; i++) {
+  console.log(n[i])
+  
+}
+                                //  forEach loop
+                              
+n.forEach(element => {
+  console.log(element + element)
+  
+});
+                 
+                                  // for of loop  most used loop in arrays
+                              
+for (const element of n) {
+  console.log(element)
+  
+}
+                                    //  for in loop
 
+for (const key in n) {
+   console.log(n[key])
+}
+                                
 
