@@ -417,4 +417,5 @@ for (const key in n) {
 let name = "faraz"
 let namearray = Array.from(name)
 console.log(namearray)
+console.log(namearray.length)
 
