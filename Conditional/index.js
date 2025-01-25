@@ -412,5 +412,9 @@ for (const element of n) {
 for (const key in n) {
    console.log(n[key])
 }
-                                
+                              //  Array.from
+                              
+let name = "faraz"
+let namearray = Array.from(name)
+console.log(namearray)
 
