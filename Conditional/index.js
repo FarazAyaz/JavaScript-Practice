@@ -446,9 +446,47 @@ console.log(newarray)
 
 CHAP 5 PRACTICE SET
 QUESTION 1
-*/     
 
 let arr = [1,2,3,4,5]
 let a = 54
 arr.push(a)
 console.log(arr)
+
+// QUESTION 2
+
+let arr = [1,2,3,4,5]
+let a;
+do {
+  a = prompt("Enter a Number")
+  a = Number.parseInt(a)
+  arr.push(a)
+  console.log(arr)
+  
+} while (a!=0);
+
+// question 3
+
+let arr2 = [22, 44, 66, 88, 99, 50, 1000]
+let newarr = arr2.filter((a)=>{
+  return  a % 10 == 0
+  
+})
+console.log(newarr)
+
+*/     
+      //                                question 4
+
+      let arr3 = [22, 44, 66, 88, 99, 50, 1000]
+      let arr4 = arr3.map((a)=>{
+        return a*a
+      })
+      console.log(arr4)
+
+                              // question 5
+
+let f = [1, 2, 3, 4, 5]
+const reduce_func = (a, b)=>{
+  return a * b
+}
+let newarray = f.reduce(reduce_func)
+console.log(newarray)
