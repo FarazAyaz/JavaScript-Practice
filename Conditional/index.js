@@ -420,7 +420,6 @@ console.log(namearray)
 console.log(namearray.length)
 
 //  MAP FUNCTION 
-*/     
 
 let arr = [1,3,5,7,9]
 arr.map((value, index, array)=>{
@@ -428,7 +427,7 @@ arr.map((value, index, array)=>{
 }
 )
 
-                                                //  ARRAY FILTER METHOD 
+//  ARRAY FILTER METHOD 
 
 let arr2 = [2,4,6,8,10]
 let newarr = arr2.filter((a)=>{
@@ -436,7 +435,7 @@ let newarr = arr2.filter((a)=>{
 })
 console.log(newarr)
 
-                                                  //  ARRAY REDUCE METHOD
+//  ARRAY REDUCE METHOD
 
 let arr3 = [44,6,8,88,5,20]
 const reduce_func = (h1, h2)=>{
@@ -444,3 +443,12 @@ const reduce_func = (h1, h2)=>{
 }
 let newarray = arr3.reduce(reduce_func)
 console.log(newarray)
+
+CHAP 5 PRACTICE SET
+QUESTION 1
+*/     
+
+let arr = [1,2,3,4,5]
+let a = 54
+arr.push(a)
+console.log(arr)
