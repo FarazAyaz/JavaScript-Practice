@@ -1,6 +1,5 @@
-
 // based on a condition we need to modify a variable
-// 
+//
 
 // let age = 10;
 // if (age != 10) {
@@ -15,30 +14,26 @@
 
 //   console.log("you cant swim")
 // }
-  // loops
+// loops
 // let a = 1;
 
 // for (let i = 0; i < 100; i++) {
 //   console.log(a + i);
- 
-  
-  
+
 // }
 // for (let f = 5; f < 100; f++) {
 //   console.log(a + f);
-  
-  
+
 // }
 //
 
 //  portion while
 
-
 // let i = 2;
 // while (i < 100) {
 //   console.log(i);
 //   i++;
-  
+
 // }
 // practice set
 // var f = "FARAZ";
@@ -88,17 +83,16 @@
 // console.log(faraz < adnan);
 // console.log(faraz >= adnan);
 // console.log(faraz <= adnan);
-// console.log(faraz === adnan); 
+// console.log(faraz === adnan);
 // agr type change kr le to false ho jata hai matlb adnan = "20" to false ho jata hai
 // console.log(faraz !== adnan);
 // const prompt=require("prompt-sync");
 // let a = prompt("Hey! what is your age?");
 // a = Number.parseInt(a);
-      
 
-// 
+//
 
-//                                        practice set chap 2 
+//                                        practice set chap 2
 
 //                                         question 1
 
@@ -127,7 +121,6 @@
 //     break
 //     default:
 //         console.log("your are not special")
-    
 
 // }
 //                                           question 3
@@ -151,7 +144,7 @@
 // )
 
 // question 5
-  
+
 // let age = 15
 // let a = age>18?"you can drive":"you cannot drive"
 // console.log(a)
@@ -164,18 +157,17 @@
 // let n = 5
 // for (let i = 0; i < n; i++) {
 //     factorial *= (i +1);
-    
+
 // }
 // console.log(
-//     'factorial of first' + n + "natural number is" + factorial 
+//     'factorial of first' + n + "natural number is" + factorial
 // )
-
 
 // let sum = 0;
 // let n = 10;
 // for (let i = 0; i < n; i++) {
 //     sum += (i + 1);
-    
+
 // }
 // console.log(
 //     sum
@@ -193,35 +185,34 @@
 //   console.log("Marks of " + a + " are " + obj[a]);
 //   console.log(); // Adds an empty line
 // }
-                                  //  while loop
+//  while loop
 // let n = 100
 // let i = 0;
 // while(i<n) {
 //   console.log(i)
 //   i++
-  
+
 // }
 // let n = 10
 // let i = 11;
 //  do{
 //   console.log(i)
 //   i++
-  
+
 // }while(i<n)
 
-                                //  functions
+//  functions
 //  function trick(x,y) {
 //    return (x * y) / 2}
-  // let chemistry = 10;
-  // let physics = 20;
-  // let biology = 30;
-  // console.log("average of chemistry and physics is " + trick(chemistry,physics ))
-  //   console.log("average of chemistry and biology is " + trick(chemistry, biology))
-  //   console.log("average of biology and physics is " + trick(biology,physics))
-
+// let chemistry = 10;
+// let physics = 20;
+// let biology = 30;
+// console.log("average of chemistry and physics is " + trick(chemistry,physics ))
+//   console.log("average of chemistry and biology is " + trick(chemistry, biology))
+//   console.log("average of biology and physics is " + trick(biology,physics))
 
 //                                     Table of 10
-//                                   ascending order 
+//                                   ascending order
 //                                     for loop
 /*
 
@@ -473,16 +464,15 @@ let newarr = arr2.filter((a)=>{
 })
 console.log(newarr)
 
-*/     
-      //                                question 4
+//                                question 4
 
-      let arr3 = [22, 44, 66, 88, 99, 50, 1000]
-      let arr4 = arr3.map((a)=>{
-        return a*a
-      })
-      console.log(arr4)
+let arr3 = [22, 44, 66, 88, 99, 50, 1000]
+let arr4 = arr3.map((a)=>{
+  return a*a
+})
+console.log(arr4)
 
-                              // question 5
+// question 5
 
 let f = [1, 2, 3, 4, 5]
 const reduce_func = (a, b)=>{
@@ -490,3 +480,75 @@ const reduce_func = (a, b)=>{
 }
 let newarray = f.reduce(reduce_func)
 console.log(newarray)
+*/
+
+// variable
+// declaration
+var name;
+let age;
+//const country;
+// const variable should be initialized at the time of declaration
+// initailize
+name = "faraz";
+age = 22;
+// datatypes
+// integer string boolean array object
+
+let faraz = {
+  name: "faraz",
+  age: 22,
+  country: "Pakistan",
+  isMale: true,
+};
+
+let array_of_objects = [
+  { name: "faraz", age: 22, country: "Pakistan", isMale: true },
+  { name: "Adnan", age: 23, country: "Pakistan1", isMale: true },
+  { name: "faraz1", age: 24, country: "Pakistan2", isMale: true },
+  { name: "faraz2", age: 25, country: "Pakistan3", isMale: true },
+];
+
+// modified array = []
+let modified_array = array_of_objects.map((value, index) => {
+  if (value.country === "Pakistan2") {
+    value.country = "Ireland";
+  }
+  return value;
+});
+
+console.log(modified_array);
+
+// loops
+// for loop
+
+let array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(array1[6]); // accessing the array elememt
+let array2 = [];
+let array3 = [];
+for (let i = 0; i < array1.length; i++) {
+  if (array1[i] % 2 == 0) {
+    array2.push(array1[i]);
+  } else {
+    array3.push(array1[i]);
+  }
+}
+console.log("the even numbers are", array2);
+console.log("the odd numbers are", array3);
+
+// how to swap two vriables
+let a = 10;
+let b = 20;
+let original_val_of_a = a;
+a = b;
+b = original_val_of_a;
+console.log(`the value of a is ${a} and the value b is ${b}`);
+
+const string = "Alucard";
+for (let i = 0; i < parseInt(string.length / 2); i++) {
+  const org_val = string[i]; // string[0]
+  string[i] = string[string.length - 1 - i];
+  string[string.length - 1 - i] = org_val;
+}
+
+console.log(string);
+
