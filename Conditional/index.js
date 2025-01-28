@@ -480,7 +480,6 @@ const reduce_func = (a, b)=>{
 }
 let newarray = f.reduce(reduce_func)
 console.log(newarray)
-*/
 
 // variable
 // declaration
@@ -530,7 +529,7 @@ for (let i = 0; i < array1.length; i++) {
     array2.push(array1[i]);
   } else {
     array3.push(array1[i]);
-  }
+}
 }
 console.log("the even numbers are", array2);
 console.log("the odd numbers are", array3);
@@ -543,12 +542,32 @@ a = b;
 b = original_val_of_a;
 console.log(`the value of a is ${a} and the value b is ${b}`);
 
-const string = "Alucard";
-for (let i = 0; i < parseInt(string.length / 2); i++) {
-  const org_val = string[i]; // string[0]
-  string[i] = string[string.length - 1 - i];
-  string[string.length - 1 - i] = org_val;
+// let n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let sum = 0;
+for (let i = 1; i <= 50; i++) {
+  sum += i;
 }
+console.log(sum);
 
-console.log(string);
+// exercise 1
+*/
 
+let r =  Math.floor(Math.random() * 100);
+console.log(r);
+
+let i=0;
+while (true) {
+  ++i
+  let n = prompt("Enter a number");
+n =parseInt(n);
+  if (n == r ){
+    console.log(`You have guessed the number in ${i} attempts`);
+    break;
+  }
+  else if (n > r) {
+    console.log("The number is smaller");
+  }
+  else  {
+    console.log("The number is greater");
+  }
+}
