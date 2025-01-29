@@ -550,7 +550,6 @@ for (let i = 1; i <= 50; i++) {
 console.log(sum);
 
 // exercise 1
-*/
 
 let r =  Math.floor(Math.random() * 100);
 console.log(r);
@@ -559,7 +558,7 @@ let i=0;
 while (true) {
   ++i
   let n = prompt("Enter a number");
-n =parseInt(n);
+  n =parseInt(n);
   if (n == r ){
     console.log(`You have guessed the number in ${i} attempts`);
     break;
@@ -569,5 +568,29 @@ n =parseInt(n);
   }
   else  {
     console.log("The number is greater");
-  }
 }
+}
+*/
+
+// exercise 2
+
+let r = Math.floor(Math.random() * 40);
+console.log(r);
+let i = 0;
+while (true) {
+  ++i
+let n = prompt("ENTER A NUMBER");
+n = parseInt(n);
+if (n==r) {
+console.log( "YOU HAVE GUESSED THE NUMBER IN ${i} ATTEMPTS");
+break;
+}
+
+else if (n>r) {
+console.log("THE NUMBER IS SMALLER");
+}
+else {
+console.log("THE NUMBER IS GREATER");
+}
+}
+
