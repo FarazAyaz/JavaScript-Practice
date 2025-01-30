@@ -570,7 +570,6 @@ while (true) {
     console.log("The number is greater");
 }
 }
-*/
 
 // exercise 2
 
@@ -579,18 +578,19 @@ console.log(r);
 let i = 0;
 while (true) {
   ++i
-let n = prompt("ENTER A NUMBER");
-n = parseInt(n);
-if (n==r) {
-console.log( "YOU HAVE GUESSED THE NUMBER IN ${i} ATTEMPTS");
-break;
+  let n = prompt("ENTER A NUMBER");
+  n = parseInt(n);
+  if (n==r) {
+    console.log( "YOU HAVE GUESSED THE NUMBER IN ${i} ATTEMPTS");
+    break;
+  }
+  
+  else if (n>r) {
+    console.log("THE NUMBER IS SMALLER");
+  }
+  else {
+    console.log("THE NUMBER IS GREATER");
 }
-
-else if (n>r) {
-console.log("THE NUMBER IS SMALLER");
 }
-else {
-console.log("THE NUMBER IS GREATER");
-}
-}
+*/
 
