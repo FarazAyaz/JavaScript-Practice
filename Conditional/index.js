@@ -593,4 +593,20 @@ while (true) {
 }
 }
 */
+                      //  chapter 6 (practice set)
+
+// question 1
+
+let a = prompt("ENTER A NUMBER");
+a = parseInt(a);
+if (a > 18)
+  alert("YOU CAN DRIVE");
+
+  else (a < 18) 
+    alert("YOU CANNOT DRIVE");
+  
+  console.log(a)
+
+  // question 2
+
 
