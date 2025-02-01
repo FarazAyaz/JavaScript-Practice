@@ -607,6 +607,37 @@ if (a > 18)
   
   console.log(a)
 
-  // question 2
+  // question 2 and 3
 
 
+  let F = true;
+  while (F) {
+    let a = prompt("ENTER A NUMBER");
+    a = parseInt(a);
+    if (a < 0) {
+      console.error("INVALID INPUT");
+      break;
+    }
+    
+    if (a > 18) {
+      alert("YOU CAN DRIVE");
+    } else  alert("YOU CANNOT DRIVE");
+      F = confirm("DO YOU WANT TO CONTINUE");
+  }
+  console.log(F);
+
+  // question 4
+
+let number = prompt("Enter a number");
+number = parseInt(number);
+
+if (number > 10) {
+  location.href = "https://hianime.to/";
+}
+
+// question 5
+
+
+let color = prompt("Enter a color");
+
+document.body.style.backgroundColor = color;

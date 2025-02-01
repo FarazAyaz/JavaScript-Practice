@@ -22,17 +22,21 @@
 // f.salary = "2 lakhs";
 // console.log(f)
 
-// f.game = ["cricket", "football", "hockey"]; 
+// f.game = ["cricket", "football", "hockey"];
 
-
-while (repeat) {
-    let a = prompt("ENTER A NUMBER");
-    a = parseInt(a);
-if (a > 18)
-  alert("YOU CAN DRIVE");
-
-  else (a < 18) 
-    alert("YOU CANNOT DRIVE");
-}
-  repeat = confirm("DO YOU WANT TO PLAY AGAIN?");
+let F = true;
+while (F) {
+  let a = prompt("ENTER A NUMBER");
+  a = parseInt(a);
+  if (a < 0) {
+    console.error("INVALID INPUT");
+    break;
+  }
   
+
+  if (a > 18) {
+    alert("YOU CAN DRIVE");
+  } else  alert("YOU CANNOT DRIVE");
+    F = confirm("DO YOU WANT TO CONTINUE");
+}
+console.log(F);
