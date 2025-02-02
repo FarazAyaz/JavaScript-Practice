@@ -592,41 +592,40 @@ while (true) {
     console.log("THE NUMBER IS GREATER");
 }
 }
-*/
-                      //  chapter 6 (practice set)
+//  chapter 6 (practice set)
 
 // question 1
 
 let a = prompt("ENTER A NUMBER");
 a = parseInt(a);
 if (a > 18)
-  alert("YOU CAN DRIVE");
+alert("YOU CAN DRIVE");
 
-  else (a < 18) 
-    alert("YOU CANNOT DRIVE");
-  
-  console.log(a)
+else (a < 18) 
+alert("YOU CANNOT DRIVE");
 
-  // question 2 and 3
+console.log(a)
+
+// question 2 and 3
 
 
-  let F = true;
-  while (F) {
-    let a = prompt("ENTER A NUMBER");
-    a = parseInt(a);
-    if (a < 0) {
-      console.error("INVALID INPUT");
-      break;
-    }
-    
-    if (a > 18) {
-      alert("YOU CAN DRIVE");
-    } else  alert("YOU CANNOT DRIVE");
-      F = confirm("DO YOU WANT TO CONTINUE");
+let F = true;
+while (F) {
+  let a = prompt("ENTER A NUMBER");
+  a = parseInt(a);
+  if (a < 0) {
+    console.error("INVALID INPUT");
+    break;
   }
-  console.log(F);
+  
+  if (a > 18) {
+    alert("YOU CAN DRIVE");
+  } else  alert("YOU CANNOT DRIVE");
+  F = confirm("DO YOU WANT TO CONTINUE");
+}
+console.log(F);
 
-  // question 4
+// question 4
 
 let number = prompt("Enter a number");
 number = parseInt(number);
@@ -641,3 +640,10 @@ if (number > 10) {
 let color = prompt("Enter a color");
 
 document.body.style.backgroundColor = color;
+*/
+
+let color = prompt("Enter a color");
+
+document.body.style.backgroundColor = color;
+
+
