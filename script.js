@@ -1,3 +1,4 @@
+console.log(document.body.lastChild);
 // console.log('i am faraz');
 // var a = 10;
 // var b = 20;
@@ -24,19 +25,21 @@
 
 // f.game = ["cricket", "football", "hockey"];
 
-let F = true;
-while (F) {
-  let a = prompt("ENTER A NUMBER");
-  a = parseInt(a);
-  if (a < 0) {
-    console.error("INVALID INPUT");
-    break;
-  }
+// let F = true;
+// while (F) {
+//   let a = prompt("ENTER A NUMBER");
+//   a = parseInt(a);
+//   if (a < 0) {
+//     console.error("INVALID INPUT");
+//     break;
+//   }
   
 
-  if (a > 18) {
-    alert("YOU CAN DRIVE");
-  } else  alert("YOU CANNOT DRIVE");
-    F = confirm("DO YOU WANT TO CONTINUE");
-}
-console.log(F);
+//   if (a > 18) {
+//     alert("YOU CAN DRIVE");
+//   } else  alert("YOU CANNOT DRIVE");
+//     F = confirm("DO YOU WANT TO CONTINUE");
+// }
+// console.log(F);
+
+
