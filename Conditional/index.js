@@ -678,7 +678,7 @@ else if
 
 alert("Thanks For Playing");
 
-                //  exercise 2
+                //  exercise 3
 
 let playagain2 = "yes";
 while (playagain2 == "yes") {

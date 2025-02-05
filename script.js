@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 console.log(document.body.lastChild);
+=======
+
+
+console.log(document.body.firstChild);
+console.log(document.body.lastChild);
+console.log(document.body.firstChild);
+
+
+
+
+
+>>>>>>> b6451f61796773fab06ec5eeed06c0f1626ad9e9
 // console.log('i am faraz');
 // var a = 10;
 // var b = 20;
