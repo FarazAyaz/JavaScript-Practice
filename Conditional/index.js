@@ -742,3 +742,11 @@ else if
 }
 
 alert("Thanks For Playing");
+
+let sum = 0;
+let N = [2,3,4,5,6,7];
+
+for (let i = 0; i < N.length; i++) {
+  sum += N[i]
+}
+console.log(sum)
