@@ -741,21 +741,62 @@ playagain3 = prompt("DO YOU WANT TO PLAY AGAIN TYPE YES OR NO")
 }
 
 alert("Thanks For Playing");
-*/
 
 let sum = 0;
-let N = [2,3,4,5,6,7];
+let N = [2, 3, 4, 5, 6, 7];
 
 for (let i = 0; i < N.length; i++) {
-  sum += N[i]
+  sum += N[i];
 }
-console.log(sum)
-
+console.log(sum);
 
 let sum1 = 0;
-let N1 = [2,3,4,5,6,7];
+let N1 = [2, 3, 4, 5, 6, 7];
 
 for (let i = 0; i < N.length; i++) {
-  sum += N1[i]
+  sum += N1[i];
 }
-console.log(sum1)
+console.log(sum);
+
+let faraz = [2, 4, 6, 8, 10];
+let sum2 = 0;
+for (let i = 0; i < faraz.length; i++) {
+  sum2 += faraz[i];
+}
+
+console.log(sum2);
+
+const numbers = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+];
+
+let evensum = 0;
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 == 0) {
+    evensum += numbers[i];
+  }
+}
+
+console.log(evensum);
+
+const numberToFind = Math.floor(Math.random() * 5);
+const array = [1, 2, 3, 4, 5];
+// iterate through the array and check if the number exist in the array or not
+
+for (let i = 0; i < array.length; i++) {
+  if (array[i] == 2) {
+    console.log(`NUMBER IS + ${i} and the random is ${numberToFind} `);
+    break;
+  } 
+  else {
+    console.log(`not present`);
+}
+}
+*/
+
+for (let i = 0; i <= 10; i++) {
+ console.log(`The Table Is OF ${i}`)
+ for (let j = 0; j <= 10; j++) {
+  console.log(i + "*" + j + "=" + i*j)
+ }
+}
