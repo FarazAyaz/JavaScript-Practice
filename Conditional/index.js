@@ -792,11 +792,83 @@ for (let i = 0; i < array.length; i++) {
     console.log(`not present`);
 }
 }
-*/
 
 for (let i = 0; i <= 10; i++) {
- console.log(`The Table Is OF ${i}`)
- for (let j = 0; j <= 10; j++) {
-  console.log(i + "*" + j + "=" + i*j)
- }
+  console.log(`The Table Is OF ${i}`)
+  for (let j = 0; j <= 10; j++) {
+    console.log(i + "*" + j + "=" + i*j)
+  }
+}
+
+const object1 = {
+  F: "FARAZ",
+  A: "ADNAN",
+  S: "SIFFAT",
+}
+for (const name in object1) {
+  console.log(`word  ${name}  = ${object1[name]}`)
+  
+}
+//  questions for for loop
+// Write a for loop to print numbers from 1 to 10
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+}
+
+// Write a for loop to print numbers from 10 to 1 (reverse order)
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+// Write a for loop to print only even numbers from 1 to 20.
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 == 0) {
+    console.log(`these are even integers ${i}`)
+    
+  };
+}
+//  Write a for loop to print only odd numbers from 1 to 15.
+for (let i = 0; i <= 15; i++) {
+  if (i % 2 != 0) {
+    console.log(`these are odd integers ${i}`)
+  }
+}
+// Write a for loop to print the square of numbers from 1 to 5.
+for (let i = 0; i <= 5; i++) {
+  console.log(`sqaure of ${i} is = ${i * i}`)
+  
+}
+
+// intermediate questions
+// Write a for loop to calculate the sum of numbers from 1 to 10
+let numbers = [1,2,3,4,5,6,7,8,9,10];
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i]
+  console.log(sum)
+}
+// Write a for loop to calculate the product (multiplication) of numbers from 1 to 5
+let num = [1,2,3,4,5];
+let multiplication = 1;
+for (let i = 0; i < num.length; i++) {
+  multiplication *= num[i]
+  console.log(multiplication)
+}
+// Write a for loop to print the first 10 multiples of 3.
+for (let i = 0; i <= 10; i++) {
+  console.log(3 * i)
+}
+// Write a for loop that prints every letter of the word "JavaScript" one by one
+let array = "Faraz Adnan"
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]) 
+}
+
+*/
+// Use a for loop to print the numbers from 1 to 10, but stop the loop if the number is 7.
+for (let i = 1; i <= 10; i++) {
+  if (i == 7) {
+    console.log(`7 is detected`)
+    break;
+  }
+ console.log(i)
 }
