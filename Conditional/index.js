@@ -863,12 +863,21 @@ for (let i = 0; i < array.length; i++) {
   console.log(array[i]) 
 }
 
-*/
 // Use a for loop to print the numbers from 1 to 10, but stop the loop if the number is 7.
 for (let i = 1; i <= 10; i++) {
   if (i == 7) {
     console.log(`7 is detected`)
     break;
   }
- console.log(i)
+  console.log(i)
 }
+// Advanced Questions
+// Use a for loop to reverse a string (e.g., "hello" → "olleh").
+*/
+let string = "Alucard";
+let reversed = "";
+for (let i = string.length - 1; i >= 0;  i--) {
+  reversed += string[i]
+  
+}
+console.log(reversed)
