@@ -873,11 +873,55 @@ for (let i = 1; i <= 10; i++) {
 }
 // Advanced Questions
 // Use a for loop to reverse a string (e.g., "hello" → "olleh").
-*/
-let string = "Alucard";
+let string = "alucarD";
 let reversed = "";
 for (let i = string.length - 1; i >= 0;  i--) {
   reversed += string[i]
   
 }
 console.log(reversed)
+
+// write a for loop to print this pattern
+for (let i = 0; i <= 5; i++) {
+  let star = "";
+  for (let j = 0; j <= i; j++) {
+    star += "*";
+  }
+  console.log(star);
+}
+
+for (let i = 5; i >= 1; i--) {
+  let star = "";
+  for (let j = 1; j <= i; j++) {
+    star += "*";
+  }
+  console.log(star)
+}
+
+for (let i = 0; i <= 7; i++) {
+  for (let j = 3; j < i; j--) {
+    console.log(`this is i ${i} and this is ${j} and the log runs`);
+    if (j < 0) {
+      break;
+    }
+  }
+}
+for (let i = 10 ; i >= 1; i--) {
+  console.log(`The Table Is OF ${i}`);
+  for (let j = 1; j <= 20; j++) {
+    console.log(i + "*" + j + "=" + i * j);
+  } 
+}
+let n = [1,2,3,4,5,6,7,8,9];
+minus = 1;
+for (let i = 1; i < n.length; i++) {
+  minus -= n[i]
+  console.log(minus)
+}
+*/
+let n = [9, 8, 7, 6, 5, 4, 3, 2, 1]; 
+
+for (let i = 0; i < n.length - 1; i++) {  
+  let result = n[i] - n[i + 1];   
+  console.log(`${n[i]} - ${n[i + 1]} = ${result}`);
+}
