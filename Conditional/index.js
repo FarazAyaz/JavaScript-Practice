@@ -918,10 +918,10 @@ for (let i = 1; i < n.length; i++) {
   minus -= n[i]
   console.log(minus)
 }
-*/
 let n = [9, 8, 7, 6, 5, 4, 3, 2, 1]; 
 
 for (let i = 0; i < n.length - 1; i++) {  
   let result = n[i] - n[i + 1];   
   console.log(`${n[i]} - ${n[i + 1]} = ${result}`);
 }
+*/
