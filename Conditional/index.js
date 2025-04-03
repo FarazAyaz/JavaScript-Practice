@@ -925,3 +925,11 @@ for (let i = 0; i < n.length - 1; i++) {
   console.log(`${n[i]} - ${n[i + 1]} = ${result}`);
 }
 */
+// template literals
+let Firstnumber = 30;
+let SecondNumber = 20;
+console.log(
+  `The sum of ${Firstnumber} and ${SecondNumber} is ${
+    Firstnumber + SecondNumber
+  }`
+);
