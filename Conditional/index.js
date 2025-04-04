@@ -933,3 +933,26 @@ console.log(
     Firstnumber + SecondNumber
   }`
 );
+
+Name = 'Faraz';
+FName = "Faraz Ayaz khan";
+console.log(` ${FName}.`.repeat(10))
+
+const myFavoriteFood = ["Biryani", "Pizza", "Burger"];
+let [f1,f2,f3] = myFavoriteFood
+console.log(`My Fav Food Is ${f3}, ${f1}, ${f2}`)
+console.log(`My Most Fav is ${f2} and the least fav is ${f1}`)
+
+                                        //  assignment
+  
+  let a = 10;
+  let b = 20;
+  a = a + b;
+  b = a - b;
+  a = a - b;
+  console.log(`The Value of a is ${a} and the Value of b is ${b}`)
+
+  let c = 30;
+  let d = 35;
+  [c,d] = [d,c]
+  console.log(`The Value of a is ${c} and the Value of b is ${d}`)
