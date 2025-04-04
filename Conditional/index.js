@@ -956,3 +956,19 @@ console.log(`My Most Fav is ${f2} and the least fav is ${f1}`)
   let d = 35;
   [c,d] = [d,c]
   console.log(`The Value of a is ${c} and the Value of b is ${d}`)
+
+  // object destructuring
+
+  let myProfile = {
+    name: "Faraz Ayaz Khan",
+    age: 20,
+    country: "Pakstan",
+    hobby : {
+      first: "Cricket",
+      second: "Coding",
+      Third: "outing"
+
+    }
+  }
+  let {name, age, country, hobby} = myProfile
+  console.log(`My name is ${name} and my age is ${age} and my country is ${country} and my Most Fav hobby is Playing ${hobby.first}`)
