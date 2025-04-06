@@ -924,7 +924,6 @@ for (let i = 0; i < n.length - 1; i++) {
   let result = n[i] - n[i + 1];   
   console.log(`${n[i]} - ${n[i + 1]} = ${result}`);
 }
-*/
 // template literals
 let Firstnumber = 30;
 let SecondNumber = 20;
@@ -943,32 +942,101 @@ let [f1,f2,f3] = myFavoriteFood
 console.log(`My Fav Food Is ${f3}, ${f1}, ${f2}`)
 console.log(`My Most Fav is ${f2} and the least fav is ${f1}`)
 
-                                        //  assignment
-  
-  let a = 10;
-  let b = 20;
-  a = a + b;
-  b = a - b;
-  a = a - b;
-  console.log(`The Value of a is ${a} and the Value of b is ${b}`)
+//  assignment
 
-  let c = 30;
-  let d = 35;
-  [c,d] = [d,c]
-  console.log(`The Value of a is ${c} and the Value of b is ${d}`)
+let a = 10;
+let b = 20;
+a = a + b;
+b = a - b;
+a = a - b;
+console.log(`The Value of a is ${a} and the Value of b is ${b}`)
 
-  // object destructuring
+let c = 30;
+let d = 35;
+[c,d] = [d,c]
+console.log(`The Value of a is ${c} and the Value of b is ${d}`)
 
-  let myProfile = {
-    name: "Faraz Ayaz Khan",
-    age: 20,
-    country: "Pakstan",
-    hobby : {
-      first: "Cricket",
-      second: "Coding",
-      Third: "outing"
+// object destructuring
 
-    }
+let myProfile = {
+  name: "Faraz Ayaz Khan",
+  age: 20,
+  country: "Pakstan",
+  hobby : {
+    first: "Cricket",
+    second: "Coding",
+    Third: "outing"
   }
-  let {name, age, country, hobby} = myProfile
-  console.log(`My name is ${name} and my age is ${age} and my country is ${country} and my Most Fav hobby is Playing ${hobby.first}`)
+}
+let {name, age, country, hobby} = myProfile
+console.log(`My name is ${name} and my age is ${age} and my country is ${country} and my Most Fav hobby is Playing ${hobby.first}`)
+
+// Arrow Function
+
+let f = 50;
+let g = 50;
+
+const sum = ()=> f + g
+console.log(sum())
+
+
+
+
+let h = 30;
+
+const sub = (i) => h - i
+console.log(sub(15))
+
+const mult = (a,b) => {
+  b = (typeof b !== "undefined") ? b : 5
+  console.log(a * b)
+}
+mult(10)
+
+const sum = (a,b=4) => {
+  console.log(a + b)
+}
+sum(10)
+
+//  REST PARAMETERS
+const mult = (...inputs) => {
+  console.log(...inputs)
+  let result = 1;
+  for (const i of inputs) {
+    result += i;
+  }
+  console.log(result)
+}
+mult(1,2,3,4,5,6,7,8,9,10)
+
+// SPREAD OPERATORS
+const func = (a,b,c) => {
+  console.log(a+b+c)
+  
+}
+let arr = [7,8,9];
+console.log(...arr)
+func(...arr)
+
+
+*/
+let func2 = (a,b,c,d)=> {
+  console.log(a+b-c*d)
+}
+let newarr = [4,5,6,7];
+console.log(...newarr)
+func2(...newarr)
+
+// concat method 
+
+let array1 = [1,2,3,4]
+let array2 = [5,6,7,8]
+
+array1 = [...array1,...array2]
+console.log(array1)
+
+let arr1 = [1,2,3]
+let arr3 = [4,5,6]
+
+arr2 = [...arr1,...arr3,10,13,14]
+console.log(arr2)
