@@ -1040,3 +1040,16 @@ let arr3 = [4,5,6]
 
 arr2 = [...arr1,...arr3,10,13,14]
 console.log(arr2)
+
+
+let array3 = [1,2,3,4]
+let array4 = [5,6,7,8]
+
+array1 = [...array3,...array4]
+console.log(array3)
+
+let arr5 = [1,2,3]
+let arr6 = [4,5,6]
+
+arr2 = [...arr1,...arr3,10,13,14]
+console.log(arr2)
