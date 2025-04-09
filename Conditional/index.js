@@ -1019,7 +1019,6 @@ console.log(...arr)
 func(...arr)
 
 
-*/
 let func2 = (a,b,c,d)=> {
   console.log(a+b-c*d)
 }
@@ -1053,3 +1052,18 @@ let arr6 = [4,5,6]
 
 arr2 = [...arr1,...arr3,10,13,14]
 console.log(arr2)
+*/
+
+                              // promises
+
+                              let promise = new Promise((resolve, reject) => {
+                                let a = 10;
+                                let b = 20;
+                                if (a + b == 30) {
+                                  resolve("The sum is correct");
+                                } else {
+                                  reject("The sum is incorrect");
+                                }
+                              });
+                              
+                          
