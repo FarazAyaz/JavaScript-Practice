@@ -1150,3 +1150,9 @@ let userbooks = series.filter((bk)=> bk.genre.includes("Action"))
 userbooks = series.filter((bk)=> { return bk.genre.includes("Mystery") && bk.rating > 8.0})
 console.log(userbooks)
 
+let mynums = [1,2,3,4,5,6,7,8,9,10]
+const newnums = mynums.map((num)=> num * 2)
+console.log(newnums)
+
+const sum = mynums.map((num)=> num + 10)
+console.log(sum)
