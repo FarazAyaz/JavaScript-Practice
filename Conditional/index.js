@@ -1156,3 +1156,6 @@ console.log(newnums)
 
 const sum = mynums.map((num)=> num + 10)
 console.log(sum)
+ 
+const subtraction = mynums.map((num)=> num -10)
+console.log(subtraction)
