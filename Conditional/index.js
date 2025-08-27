@@ -1056,18 +1056,17 @@ console.log(arr2)
 // promises
 
 let promise = new Promise((resolve, reject) => {
-                                let a = 10;
-                                let b = 20;
-                                if (a + b == 30) {
-                                  resolve("The sum is correct");
-                                } else {
-                                  reject("The sum is incorrect");
+let a = 10;
+let b = 20;
+if (a + b == 30) {resolve("The sum is correct")} 
+else {
+   reject("The sum is incorrect");
                               }
-                            });
+});
                             
                             
-                            */
-                               
+ */
+   
                               // Filter , Map, reduce
 
                               
@@ -1142,7 +1141,7 @@ let promise = new Promise((resolve, reject) => {
                                   "genre": ["Drama", "Romance"],
                                   "watch_url": "https://www.viki.com/tv/23456789c-queen-of-tears"
                                 }
-                              ]
+                        ]
                                
 let userbooks = series.filter((bk)=> bk.genre.includes("Action"))
 // console.log(userbooks)
