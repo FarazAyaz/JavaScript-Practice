@@ -1067,10 +1067,9 @@ else {
                             
  */
    
-                              // Filter , Map, reduce
+  // Filter , Map, reduce
 
-                              
-                        const series =  [
+                               const series =  [
                                 {
                                   "name": "Lovely Runner",
                                   "id": "lovely-runner",
