@@ -753,7 +753,7 @@ console.log(sum);
 let sum1 = 0;
 let N1 = [2, 3, 4, 5, 6, 7];
 
-for (let i = 0; i < N.length; i++){
+for (let i = 0; i < N.length; i++) {
   sum += N1[i];
 }
 console.log(sum);
