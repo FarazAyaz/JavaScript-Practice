@@ -1160,9 +1160,21 @@ else {
 
 // Practice Set Loops
 
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-  if (i == 5) {
-    break;
-  }
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+//   if (i == 5) {
+//     break;
+//   }
+// }
+
+let a1 = [1,2,3,4,5,6,7,8,9,10]
+const f1 = () => {
+  return a1.map((num)=> num * 2)
 }
+console.log(f1())
+
+
+
+
+
+

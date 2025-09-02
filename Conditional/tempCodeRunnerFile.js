@@ -1,1 +1,6 @@
-console.log(`My Most Fav is ${f2} and the least fav is ${f1}`)
+for (let i = 0; i < 10; i++) {
+//   console.log(i);
+//   if (i == 5) {
+//     break;
+//   }
+// }
