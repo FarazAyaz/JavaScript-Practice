@@ -1173,6 +1173,12 @@ const f1 = () => {
 }
 console.log(f1())
 
+let a2 = [1,2,3,4,5,6,7,8,9,10]
+const f2 = () => {
+  return a2.map((num)=> num * 2)
+}
+console.log(f2())
+
 
 
 
