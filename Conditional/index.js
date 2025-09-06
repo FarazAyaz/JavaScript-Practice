@@ -1167,18 +1167,26 @@ else {
 //   }
 // }
 
-let a1 = [1,2,3,4,5,6,7,8,9,10]
-const f1 = () => {
-  return a1.map((num)=> num * 2)
-}
-console.log(f1())
+// let a1 = [1,2,3,4,5,6,7,8,9,10]
+// const f1 = () => {
+//   return a1.map((num)=> num * 2)
+// }
+// console.log(f1())
 
-let a2 = [1,2,3,4,5,6,7,8,9,10]
-const f2 = () => {
-  return a2.map((num) => num * 2)
-}
-console.log(f2())
+// let a2 = [1,2,3,4,5,6,7,8,9,10]
+// const f2 = () => {
+//   return a2.map((num) => num * 2)
+// }
+// console.log(f2())
 
+
+let f = ["Faraz", "Adnan", "Siffat", "Ahmed", "Khan"]
+ {
+  f.map((name) => {
+    return name.length > 4
+  })
+ }
+console.log(f)
 
 
 
