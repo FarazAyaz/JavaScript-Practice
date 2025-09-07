@@ -1180,7 +1180,7 @@ else {
 // console.log(f2())
 
 
-let f = ["Faraz", "Adnan", "Siffat", "Ahmed", "Khan"]
+let f =  ["Faraz", "Adnan", "Siffat", "Ahmed", "Khan"]
  {
   f.map((name) => {
     return name.length > 4
