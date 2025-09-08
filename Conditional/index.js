@@ -1065,130 +1065,138 @@ else {
 });
                             
                             
- */
-   
-  // Filter , Map, reduce
+
+// Filter , Map, reduce
 
 //                                const series =  [
 //                                 {
-//                                   "name": "Lovely Runner",
-//                                   "id": "lovely-runner",
-//                                   "img_url": "../../public/Lovelyrunner.jpeg",
-//                                   "rating": "9.8",
-//                                   "description": "Im Sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae.",
-//                                   "cast": ["Kim Hye Yoon", "Byeon Woo Seok", "Song Geon Hee"],
-//                                   "genre": ["Romantic Comedy", "Fantasy"],
-//                                   "watch_url": "https://www.viki.com/tv/40466c-lovely-runner"
-//                                 },
-//                                 {
-//                                   "name": "Stranger Things",
-//                                   "id": "stranger-things",
-//                                   "img_url": "../../public/st.jpg",
-//                                   "rating": "8.7",
-//                                   "description": "A group of young friends witness supernatural forces and secret government exploits.",
-//                                   "cast": ["Winona Ryder", "David Harbour", "Millie Bobby Brown"],
-//                                   "genre": ["Drama", "Fantasy", "Horror"],
-//                                   "watch_url": "https://www.netflix.com/title/80057281"
-//                                 },
-//                                 {
-//                                   "name": "The Witcher",
-//                                   "id": "the-witcher",
-//                                   "img_url": "../../public/witchr.jpeg",
-//                                   "rating": "8.2",
+  //                                   "name": "Lovely Runner",
+  //                                   "id": "lovely-runner",
+  //                                   "img_url": "../../public/Lovelyrunner.jpeg",
+  //                                   "rating": "9.8",
+  //                                   "description": "Im Sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae.",
+  //                                   "cast": ["Kim Hye Yoon", "Byeon Woo Seok", "Song Geon Hee"],
+  //                                   "genre": ["Romantic Comedy", "Fantasy"],
+  //                                   "watch_url": "https://www.viki.com/tv/40466c-lovely-runner"
+  //                                 },
+  //                                 {
+    //                                   "name": "Stranger Things",
+    //                                   "id": "stranger-things",
+    //                                   "img_url": "../../public/st.jpg",
+    //                                   "rating": "8.7",
+    //                                   "description": "A group of young friends witness supernatural forces and secret government exploits.",
+    //                                   "cast": ["Winona Ryder", "David Harbour", "Millie Bobby Brown"],
+    //                                   "genre": ["Drama", "Fantasy", "Horror"],
+    //                                   "watch_url": "https://www.netflix.com/title/80057281"
+    //                                 },
+    //                                 {
+      //                                   "name": "The Witcher",
+      //                                   "id": "the-witcher",
+      //                                   "img_url": "../../public/witchr.jpeg",
+      //                                   "rating": "8.2",
 //                                   "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world.",
 //                                   "cast": ["Henry Cavill", "Anya Chalotra", "Freya Allan"],
 //                                   "genre": ["Action", "Adventure", "Drama"],
 //                                   "watch_url": "https://www.netflix.com/title/80189685"
 //                                 },
 //                                 {
-//                                   "name": "Money Heist",
-//                                   "id": "money-heist",
-//                                   "img_url": "../../public/mh.jpeg",
-//                                   "rating": "8.3",
-//                                   "description": "A criminal mastermind who goes by 'The Professor' plans the biggest heist in recorded history.",
-//                                   "cast": ["Úrsula Corberó", "Álvaro Morte", "Itziar Ituño"],
-//                                   "genre": ["Action", "Crime", "Drama"],
-//                                   "watch_url": "https://www.netflix.com/title/80192098"
-//                                 },
-//                                 {
-//                                   "name": "The Crown",
-//                                   "id": "the-crown",
-//                                   "img_url": "../../public/crown.jpeg",
-//                                   "rating": "8.6",
-//                                   "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
-//                                   "cast": ["Claire Foy", "Olivia Colman", "Imelda Staunton"],
-//                                   "genre": ["Biography", "Drama", "History"],
-//                                   "watch_url": "https://www.netflix.com/title/80025678"
-//                                 },
-//                                 {
-//                                   "name": "Squid Game",
-//                                   "id": "squid-game",
-//                                   "img_url": "../../public/sg.jpeg",
-//                                   "rating": "8.1",
-//                                   "description": "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
-//                                   "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon"],
-//                                   "genre": ["Action", "Drama", "Mystery"],
-//                                   "watch_url": "https://www.netflix.com/title/81040344"
-//                                 },
-//                                 {
-//                                   "name": "Queen of Tears",
-//                                   "id": "queen-of-tears",
-//                                   "img_url": "../../public/qot.jpeg",
-//                                   "rating": "TBD",
-//                                   "description": "A gripping tale of love, loss, and resilience set against the backdrop of a war-torn nation.",
-//                                   "cast": ["Kim Soo Hyun", "Kim Ji Won"],
-//                                   "genre": ["Drama", "Romance"],
-//                                   "watch_url": "https://www.viki.com/tv/23456789c-queen-of-tears"
-//                                 }
-//                         ]
-                               
-// let userbooks = series.filter((bk)=> bk.genre.includes("Action"))
-// // console.log(userbooks)
-
-// userbooks = series.filter((bk)=> { return bk.genre.includes("Mystery") && bk.rating > 8.0})
-// console.log(userbooks)
-
-// let mynums = [1,2,3,4,5,6,7,8,9,10]
-// const newnums = mynums.map((num)=> num * 2)
-// console.log(newnums)
-
-// const sum = mynums.map((num)=> num + 10)
-// console.log(sum)
- 
-// const subtraction = mynums.map((num)=> num -10)
-// console.log(subtraction)
-
-// Practice Set Loops
-
-// for (let i = 0; i < 10; i++) {
-//   console.log(i);
-//   if (i == 5) {
-//     break;
-//   }
-// }
-
-// let a1 = [1,2,3,4,5,6,7,8,9,10]
-// const f1 = () => {
+  //                                   "name": "Money Heist",
+  //                                   "id": "money-heist",
+  //                                   "img_url": "../../public/mh.jpeg",
+  //                                   "rating": "8.3",
+  //                                   "description": "A criminal mastermind who goes by 'The Professor' plans the biggest heist in recorded history.",
+  //                                   "cast": ["Úrsula Corberó", "Álvaro Morte", "Itziar Ituño"],
+  //                                   "genre": ["Action", "Crime", "Drama"],
+  //                                   "watch_url": "https://www.netflix.com/title/80192098"
+  //                                 },
+  //                                 {
+    //                                   "name": "The Crown",
+    //                                   "id": "the-crown",
+    //                                   "img_url": "../../public/crown.jpeg",
+    //                                   "rating": "8.6",
+    //                                   "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+    //                                   "cast": ["Claire Foy", "Olivia Colman", "Imelda Staunton"],
+    //                                   "genre": ["Biography", "Drama", "History"],
+    //                                   "watch_url": "https://www.netflix.com/title/80025678"
+    //                                 },
+    //                                 {
+      //                                   "name": "Squid Game",
+      //                                   "id": "squid-game",
+      //                                   "img_url": "../../public/sg.jpeg",
+      //                                   "rating": "8.1",
+      //                                   "description": "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
+      //                                   "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon"],
+      //                                   "genre": ["Action", "Drama", "Mystery"],
+      //                                   "watch_url": "https://www.netflix.com/title/81040344"
+      //                                 },
+      //                                 {
+        //                                   "name": "Queen of Tears",
+        //                                   "id": "queen-of-tears",
+        //                                   "img_url": "../../public/qot.jpeg",
+        //                                   "rating": "TBD",
+        //                                   "description": "A gripping tale of love, loss, and resilience set against the backdrop of a war-torn nation.",
+        //                                   "cast": ["Kim Soo Hyun", "Kim Ji Won"],
+        //                                   "genre": ["Drama", "Romance"],
+        //                                   "watch_url": "https://www.viki.com/tv/23456789c-queen-of-tears"
+        //                                 }
+        //                         ]
+        
+        // let userbooks = series.filter((bk)=> bk.genre.includes("Action"))
+        // // console.log(userbooks)
+        
+        // userbooks = series.filter((bk)=> { return bk.genre.includes("Mystery") && bk.rating > 8.0})
+        // console.log(userbooks)
+        
+        // let mynums = [1,2,3,4,5,6,7,8,9,10]
+        // const newnums = mynums.map((num)=> num * 2)
+        // console.log(newnums)
+        
+        // const sum = mynums.map((num)=> num + 10)
+        // console.log(sum)
+        
+        // const subtraction = mynums.map((num)=> num -10)
+        // console.log(subtraction)
+        
+        // Practice Set Loops
+        
+        // for (let i = 0; i < 10; i++) {
+          //   console.log(i);
+          //   if (i == 5) {
+            //     break;
+            //   }
+            // }
+            
+            // let a1 = [1,2,3,4,5,6,7,8,9,10]
+            // const f1 = () => {
 //   return a1.map((num)=> num * 2)
 // }
 // console.log(f1())
 
 // let a2 = [1,2,3,4,5,6,7,8,9,10]
 // const f2 = () => {
-//   return a2.map((num) => num * 2)
-// }
-// console.log(f2())
+  //   return a2.map((num) => num * 2)
+  // }
+  // console.log(f2())
+  
+  
+  let f =  ["Faraz", "Adnan", "Siffat", "Ahmed", "Khan"]
+  {
+    f.map((name) => {
+      return name.length > 4
+    })
+  }
+  console.log(f)
+  
+  */
+  let f =  ["Faraz", "Adnan", "Siffat", "Ahmed", "Khan"];
 
-
-let f =  ["Faraz", "Adnan", "Siffat", "Ahmed", "Khan"]
- {
-  f.map((name) => {
-    return name.length > 4
-  })
- }
-console.log(f)
-
-
-
-
-
+  //  let newf = f.splice(0)
+  //  console.log(newf)
+  
+  //   let b = f.map((name) => name.replace("Faraz", "Faraz Ayaz Khan"))
+  //   console.log(b)
+   
+  
+  
+  
+  

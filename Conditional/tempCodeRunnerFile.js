@@ -1,6 +1,5 @@
-for (let i = 0; i < 10; i++) {
-//   console.log(i);
-//   if (i == 5) {
-//     break;
-//   }
-// }
+ let newf = f.splice(0)
+  //  console.log(newf)
+  
+  //   let b = f.map((name) => name.replace("Faraz", "Faraz Ayaz Khan"))
+  //   console.log(b)
