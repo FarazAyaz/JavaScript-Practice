@@ -1199,8 +1199,10 @@ else {
   //   let b = f.map((name) => name.replace("Faraz", "Faraz Ayaz Khan"))
   //   console.log(b)
    
-   let d = f.unshift("Faraz Ayaz Khan")
-    console.log(f)
+  //  let d = f.unshift("Faraz Ayaz Khan")
+  //   console.log(f)
+
+
 
   
    
