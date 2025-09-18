@@ -1202,7 +1202,7 @@ else {
   //  let d = f.unshift("Faraz Ayaz Khan")
   //   console.log(f)
 
-  // let e = f.slice(0,3)
+  // let e =  f.slice(0,3)
   // console.log(e)
   
   
