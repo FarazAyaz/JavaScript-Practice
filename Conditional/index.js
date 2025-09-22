@@ -1204,9 +1204,14 @@ else {
 
   // let e =  f.slice(0,3)
   // console.log(e) 
-  
-  
-  
+
+for (let i = 0; i < 5; i++) {
+  console.log(f);
+}
+
+for (let i = 0; i < 5; i++) {
+  f.forEach(name => console.log(name));
+}
 
 
   
