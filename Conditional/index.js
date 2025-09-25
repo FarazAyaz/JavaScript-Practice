@@ -1212,6 +1212,9 @@ for (let i = 0; i < 5; i++) {
 for (let i = 0; i < 5; i++) {
    f.forEach(name => console.log(name));
 }
+for (let i = 0; i < 5; i++) {
+   f.forEach(name => console.log(name));
+}
  
 
   
