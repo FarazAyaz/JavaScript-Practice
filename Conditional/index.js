@@ -1187,35 +1187,40 @@ else {
   }
   console.log(f)
   
-  */
-        //  Array Methods
-
+  //  Array Methods
+  
 
   let f =  ["Faraz", "Adnan", "Siffat", "Ahmed", "Khan"];
-
+  
   //  let newf = f.splice(0)
   //  console.log(newf)
   
   //   let b = f.map((name) => name.replace("Faraz", "Faraz Ayaz Khan"))
   //   console.log(b)
-   
+  
   //  let d = f.unshift("Faraz Ayaz Khan")
   //   console.log(f)
-
+  
   // let e =  f.slice(0,3)
   // console.log(e) 
-
-for (let i = 0; i < 5; i++) {
-  console.log(f);
+  
+  for (let i = 0; i < 5; i++) {
+    console.log(f);
+  }
+  
+  for (let i = 0; i < 5; i++) {
+    f.forEach(name => console.log(name));
+  }
+  for (let i = 0; i < 5; i++) {
+    f.forEach(name => console.log(name));
+    
+  }
+  */
+let arr = [1,2,3,4,5,6,7,8,9,10]
+for (let i = 10; i >= 0; i--) {
+      console.log(arr[i])
 }
 
-for (let i = 0; i < 5; i++) {
-   f.forEach(name => console.log(name));
-}
-for (let i = 0; i < 5; i++) {
-   f.forEach(name => console.log(name));
-   
-}
  
 
   
