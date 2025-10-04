@@ -1215,15 +1215,20 @@ else {
     f.forEach(name => console.log(name));
     
   }
-  */
-let arr = [1,2,3,4,5,6,7,8,9,10]
-for (let i = 10; i >= 0; i--) 
-   {
-      console.log(arr[i])
+  let arr = [1,2,3,4,5,6,7,8,9,10]
+  for (let i = 10; i >= 0; i--) 
+  {
+  console.log(arr[i])
 }
+*/
 
  
-
+let num = 446379; // example number
+let str = num.toString();
+let firstDigit = Number(str[0]);
+let lastDigit = Number(str[str.length - 1]);
+let sum = firstDigit + lastDigit;
+console.log("Sum of first and last digits:", sum); // Output: 6
   
    
   
