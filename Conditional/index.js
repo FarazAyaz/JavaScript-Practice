@@ -1230,6 +1230,9 @@ let lastDigit = Number(str[str.length - 1]);
 let sum = firstDigit + lastDigit;
 console.log("Sum of first and last digits:", sum); // Output: 6
 
+
+
+
   
    
   
