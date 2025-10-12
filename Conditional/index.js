@@ -1223,7 +1223,7 @@ else {
 */
 
  
-let num = 446379; // example number
+let num = 44637232; // example number
 let str = num.toString();
 let firstDigit = Number(str[0]);
 let lastDigit = Number(str[str.length - 1]);
