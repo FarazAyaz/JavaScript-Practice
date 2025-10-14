@@ -1234,6 +1234,7 @@ console.log("Sum of first and last digits:", sum);   // Output: 6
 
 
 
+
   
    
   
