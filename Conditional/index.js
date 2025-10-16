@@ -1220,9 +1220,8 @@ else {
   {
   console.log(arr[i])
 }
-*/
 
- 
+
 let num = 44637232; // example number
 let str = num.toString();
 let firstDigit = Number(str[0]);
@@ -1230,6 +1229,7 @@ let lastDigit = Number(str[str.length - 1]);
 let sum = firstDigit + lastDigit;
 console.log("Sum of first and last digits:", sum);   // Output: 6
 
+*/
 
 
 
